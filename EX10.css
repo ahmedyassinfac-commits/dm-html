@@ -1,0 +1,55 @@
+body {
+    font-family: Arial;
+}
+
+.page {
+    width: 450px;
+    margin: 10px auto;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+h1 {
+    font-size: 24px;
+}
+
+h2 {
+    color: orange;
+    font-size: 18px;
+}
+
+h2:not(.important) {
+    color: orange;
+}
+
+h2.important {
+    color: black;
+    text-transform: uppercase;
+}
+
+p:first-child {
+    color: green;
+    font-weight: bold;
+}
+
+p:last-child {
+    color: blue;
+    font-style: italic;
+}
+
+p:nth-child(even) {
+    background-color: #eeeeee;
+}
+
+p:nth-child(odd) {
+    background-color: white;
+}
+
+p:first-letter {
+    font-size: 20px;
+    color: red;
+}
+
+p:hover {
+    background-color: #ffff99;
+}
