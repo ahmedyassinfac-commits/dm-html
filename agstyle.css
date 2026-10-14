@@ -1,0 +1,12 @@
+h1 + p{color: blue;
+font-weight: bold;}
+h1 ~ p{color: gray;}
+p > span{background-color: #d6cece;}
+span[title]{color:green;
+font-style: italic;}
+span[class^="intro"]{text-transform: uppercase;}
+span[class$="texte"] {
+    font-size: 20px;}
+span[class*="special"] {
+    background-color: yellow;
+}
